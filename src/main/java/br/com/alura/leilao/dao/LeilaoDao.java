@@ -1,15 +1,13 @@
 package br.com.alura.leilao.dao;
 
-import java.time.LocalDate;
-import java.util.List;
-
-import javax.persistence.EntityManager;
-
+import br.com.alura.leilao.model.Leilao;
+import br.com.alura.leilao.model.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.model.Usuario;
+import javax.persistence.EntityManager;
+import java.time.LocalDate;
+import java.util.List;
 
 @Repository
 public class LeilaoDao {
